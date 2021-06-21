@@ -74,15 +74,12 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           Container(
-            height: 350,
-            // child : Text('cameraScreen'),
+            height: 380,
             child: QRViewExample(),
-            // constraints: BoxConstraints.expand()
           ),
         ],
       ),
       bottomSheet: Container(
-        // color:Colors.red,
         child: Card(
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(40), // if you need this
@@ -152,10 +149,13 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Text('7530009088',style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w200,
-                          ),),
+                          child: Text(
+                            '7530009088',
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w200,
+                            ),
+                          ),
                         )
                       ],
                     ),
