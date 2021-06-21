@@ -3,6 +3,9 @@
 
 A UPI Scanner made with flutter 
 
+## Demo
+![plot](./demo.png)
+
 
 ## Authors
 
